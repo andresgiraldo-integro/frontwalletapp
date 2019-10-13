@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import SignIn from './Components/Login';
 
-function App() {
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +20,11 @@ function App() {
         </a>
       </header>
     </div>
+  );
+} */
+function App(){
+  return(
+    <SignIn />
   );
 }
 
